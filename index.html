@@ -3,82 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ótica Visão & Estilo</title>
+    <title>Tecnologia Display: LED vs OLED</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <div class="logo">👓 Visão & Estilo</div>
+        <div class="logo">⚡ TechVision</div>
         <nav>
             <ul>
-                <li><a href="#home">Início</a></li>
-                <li><a href="#produtos">Produtos</a></li>
-                <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#contato">Contato</a></li>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#led">LED</a></li>
+                <li><a href="#oled">OLED</a></li>
+                <li><a href="#comparativo">Comparativo</a></li>
             </ul>
         </nav>
     </header>
 
-    <div class="hero" id="home">
-        <h1>Sua visão merece o melhor cuidado</h1>
-        <p>Encontre as melhores armações, lentes de contato e óculos de sol com estilo e precisão.</p>
-        <a href="#produtos" class="btn">Ver Coleção</a>
-    </div>
+    <section class="hero" id="inicio">
+        <h1>O Futuro das Telas: LED & OLED</h1>
+        <p>Entenda o funcionamento, as diferenças e as vantagens de cada tecnologia de iluminação e display.</p>
+        <a href="#comparativo" class="btn">Ver Comparação</a>
+    </section>
 
-    <section id="produtos">
-        <h2 class="titulo-secao">Nossos Destaques</h2>
-        <div class="grid">
+    <section id="led" class="conteudo">
+        <h2 class="titulo">O que é LED?</h2>
+        <p class="descricao">
+            <strong>LED</strong> (<em>Light Emitting Diode</em> ou Diodo Emissor de Luz) é um componente eletrônico semicondutor que emite luz quando uma corrente elétrica passa por ele.
+        </p>
+        
+        <div class="cards-container">
             <div class="card">
-                <img src="https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&w=500&q=80" alt="Óculos de Sol">
-                <h3>Óculos de Sol</h3>
-                <p>Proteção UV400 completa com os designs mais modernos da estação.</p>
+                <h3>💡 Como Funciona?</h3>
+                <p>Nas telas de TV e monitores LED, os diodos servem como retroiluminação (<em>backlight</em>) para iluminar um painel de cristal líquido (LCD).</p>
             </div>
             <div class="card">
-                <img src="https://images.unsplash.com/photo-1574258495973-f010dfbb5371?auto=format&fit=crop&w=500&q=80" alt="Armações Grau">
-                <h3>Armações de Grau</h3>
-                <p>Leves, resistentes e confortáveis para o seu dia a dia.</p>
-            </div>
-            <div class="card">
-                <img src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=500&q=80" alt="Lentes de Contato">
-                <h3>Lentes de Contato</h3>
-                <p>Opções diárias e mensais para quem busca praticidade e liberdade.</p>
+                <h3>✅ Vantagens</h3>
+                <p>Alto brilho, excelente eficiência energética, longa durabilidade e custo de fabricação mais acessível.</p>
             </div>
         </div>
     </section>
 
-    <section id="servicos" class="bg-servicos">
-        <h2 class="titulo-secao">Serviços Oferecidos</h2>
-        <div class="grid">
+    <section id="oled" class="conteudo bg-alt">
+        <h2 class="titulo">O que é OLED?</h2>
+        <p class="descricao">
+            <strong>OLED</strong> (<em>Organic Light Emitting Diode</em>) utiliza compostos orgânicos que emitem sua própria luz quando estimulados eletricamente.
+        </p>
+
+        <div class="cards-container">
             <div class="card">
-                <h3>Exame de Vista</h3>
-                <p>Parcerias com especialistas para garantir a precisão da sua receita.</p>
+                <h3>✨ O "Preto Perfeito"</h3>
+                <p>Diferente do LED comum, cada pixel do OLED acende e apaga de forma <strong>independente</strong>. Ao exibir a cor preta, o pixel é simplesmente desligado.</p>
             </div>
             <div class="card">
-                <h3>Ajustes e Manutenção</h3>
-                <p>Ajustamos e limpamos seus óculos gratuitamente em nossa loja física.</p>
-            </div>
-            <div class="card">
-                <h3>Lentes Multifocais</h3>
-                <p>Tecnologia digital para adaptação rápida e visão perfeita em qualquer distância.</p>
+                <h3>📱 Aplicações</h3>
+                <p>Amplamente utilizado em smartphones premium, smartwatches e TVs de alta fidelidade de imagem devido ao seu perfil extremamente fino e flexível.</p>
             </div>
         </div>
     </section>
 
-    <section class="contato" id="contato">
-        <h2 class="titulo-secao">Fale Conosco</h2>
-        <form>
-            <input type="text" placeholder="Seu Nome" required>
-            <input type="email" placeholder="Seu E-mail" required>
-            <input type="tel" placeholder="Seu Telefone / WhatsApp">
-            <textarea rows="4" placeholder="Como podemos ajudar?" required></textarea>
-            <button type="submit" class="btn">Enviar Mensagem</button>
-        </form>
+    <section id="comparativo" class="conteudo">
+        <h2 class="titulo">Tabela Comparativa</h2>
+        
+        <div class="tabela-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Característica</th>
+                        <th>LED (LCD)</th>
+                        <th>OLED</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Iluminação</td>
+                        <td>Retroiluminação (Backlight)</td>
+                        <td>Pixels autoemissivos</td>
+                    </tr>
+                    <tr>
+                        <td>Nível de Preto</td>
+                        <td>Cinza escuro (Luz de fundo vaza)</td>
+                        <td>Preto Perfeito (Pixels desligados)</td>
+                    </tr>
+                    <tr>
+                        <td>Contraste</td>
+                        <td>Médio / Alto</td>
+                        <td>Infinito</td>
+                    </tr>
+                    <tr>
+                        <td>Brilho Máximo</td>
+                        <td>Muito Alto</td>
+                        <td>Alto</td>
+                    </tr>
+                    <tr>
+                        <td>Espessura do Painel</td>
+                        <td>Média</td>
+                        <td>Ultrafina / Flexível</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2026 Ótica Visão & Estilo - Todos os direitos reservados.</p>
-        <p>Rua Exemplo, 123 - Centro | Tel: (00) 99999-9999</p>
+        <p>&copy; 2026 TechVision - Portal Educativo sobre Tecnologias de Tela</p>
     </footer>
 
 </body>
