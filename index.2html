@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparação: LED vs OLED</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Mundo LED & OLED</h1>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="comparacao.html">Comparação</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="card">
+            <h2>LED vs OLED</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Característica</th>
+                        <th>LED</th>
+                        <th>OLED</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Iluminação</td>
+                        <td>Backlight (luz traseira)</td>
+                        <td>Emissão própria por pixel</td>
+                    </tr>
+                    <tr>
+                        <td>Nível de Preto</td>
+                        <td>Cinza escuro / Modulado</td>
+                        <td>Preto absoluto (pixel desligado)</td>
+                    </tr>
+                    <tr>
+                        <td>Espessura</td>
+                        <td>Média</td>
+                        <td>Ultra fina / Flexível</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>Projeto para o GitHub - Aprendendo HTML e CSS</p>
+    </footer>
+
+</body>
+</html>
