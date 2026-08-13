@@ -3,33 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tecnologia LED e OLED</title>
+    <title>Tecnologia LED vs OLED</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <h1>Mundo LED & OLED</h1>
-        <nav>
-            <a href="index.html">Início</a>
-            <a href="comparacao.html">Comparação</a>
-        </nav>
+        <div class="header-container">
+            <h1>Tecnologia de Display</h1>
+            <p>Entenda as diferenças entre LED e OLED</p>
+        </div>
     </header>
 
-    <main class="container">
-        <section class="card">
+    <main class="content-container">
+
+        <section class="card led-card">
+            <span class="badge">Backlight</span>
             <h2>O que é LED?</h2>
-            <p><strong>LED</strong> (Diodo Emissor de Luz) é uma tecnologia de iluminação eficiente e durável, usada desde lâmpadas comuns até telas de dispositivos eletrônicos.</p>
+            <p>
+                <strong>LED</strong> (Diodo Emissor de Luz) utiliza painéis de iluminação traseira 
+                (<em>backlight</em>) para iluminar os pixels de cristal líquido (LCD). 
+                Mesmo ao exibir a cor preta, a luz de fundo continua acesa.
+            </p>
+            <ul>
+                <li><strong>Vantagem:</strong> Maior brilho máximo e menor custo.</li>
+                <li><strong>Desvantagem:</strong> Pretos acinzentados devido ao vazamento de luz.</li>
+            </ul>
         </section>
 
-        <section class="card">
+        <section class="card oled-card">
+            <span class="badge oled-badge">Autoemissivo</span>
             <h2>O que é OLED?</h2>
-            <p><strong>OLED</strong> (Diodo Orgânico Emissor de Luz) possui compostos orgânicos que emitem luz própria. Isso permite telas mais finas, flexíveis e com pretos perfeitos, pois os pixels se desligam individualmente.</p>
+            <p>
+                <strong>OLED</strong> (Diodo Orgânico Emissor de Luz) possui materiais orgânicos que emitem 
+                sua própria luz. Cada pixel liga e desliga de forma individual, resultando em um preto absoluto.
+            </p>
+            <ul>
+                <li><strong>Vantagem:</strong> Contraste infinito, pretos perfeitos e menor consumo em temas escuros.</li>
+                <li><strong>Desvantagem:</strong> Custo mais elevado e risco de <em>burn-in</em>.</li>
+            </ul>
         </section>
+
+        <section class="comparison-section">
+            <h2>Comparativo Rápido</h2>
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Recurso</th>
+                            <th>LED (LCD)</th>
+                            <th>OLED</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Emissão de Luz</td>
+                            <td>Painel Traseiro (Backlight)</td>
+                            <td>Pixel por Pixel</td>
+                        </tr>
+                        <tr>
+                            <td>Nível de Preto</td>
+                            <td>Cinza escuro</td>
+                            <td>Preto Absoluto (Pixel desligado)</td>
+                        </tr>
+                        <tr>
+                            <td>Contraste</td>
+                            <td>Médio / Alto</td>
+                            <td>Infinito</td>
+                        </tr>
+                        <tr>
+                            <td>Espessura do Painel</td>
+                            <td>Média</td>
+                            <td>Ultra fina / Flexível</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
     </main>
 
     <footer>
-        
+        <p>Projeto criado para o GitHub • Estudo de HTML5 e CSS3</p>
     </footer>
 
 </body>
