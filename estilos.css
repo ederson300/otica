@@ -61,9 +61,9 @@ nav a:hover, nav a.active {
 /* Container Principal */
 .container {
     flex: 1;
-    max-width: 950px;
+    max-width: 750px;
     width: 90%;
-    margin: 2.5rem auto;
+    margin: 1.5rem auto;
 }
 
 /* Cards de Conteúdo */
